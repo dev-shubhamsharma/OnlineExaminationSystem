@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border:1px solid lightgrey;
+    padding: 10px 30px;
+}
+
+h1 {
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    height: calc(100vh - 70px);
+    padding: 50px 100px;
+}
+
+
+.center-div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 20px rgba(10,10,10,0.2);
+
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title-container {
+    border-bottom: 1px solid lightgrey;
+    background: #555;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color:#fff;
+}
+
+.question-container {
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.option-container {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.option-container:hover {
+    background: lightgray;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-top: 1px solid lightgrey;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.btn {
+    background: #00a7e8;
+    padding:8px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background: #17769b;
+}
+
+
+
+
+.meter {
+    height: 10px;
+    background: #00a7e8;
+    margin: 20px 0;
+}
+
+input[type="radio"] {
+    min-width: 20px;
+    min-height: 20px;
+    margin-right: 10px;
+    transform: translateY(3px);
+}
+
+.disabled {
+    background: lightgray;
+}
+
+.disabled:hover {
+    background-color: grey;
+}
+
+
+
+
+
+
